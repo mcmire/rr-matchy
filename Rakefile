@@ -10,7 +10,9 @@ begin
     gem.email = "elliot.winkler@gmail.com"
     gem.homepage = "http://github.com/mcmire/rr-matchy"
     gem.authors = ["Elliot Winkler"]
-    gem.add_development_dependency "test-spec", ">= 0"
+    gem.add_dependency "rr", ">= 0.10.5"
+    gem.add_dependency "mcmire-matchy"
+    #gem.add_development_dependency "test-spec", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
